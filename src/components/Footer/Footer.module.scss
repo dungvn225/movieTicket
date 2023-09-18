@@ -1,0 +1,49 @@
+.wrapper{
+   
+    background: black;
+    color:rgb(175, 168, 168);
+    padding: 40px 0px;
+   .wp-content{
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+     
+    .content1,.content2,.content3{
+        .content-title{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        width: 30%;
+        .content-list{
+             list-style: none;
+             margin: 0;
+             padding: 0;
+             .content-link{
+                padding: 10px 0px;
+                display: block;
+                cursor: pointer;
+             }
+        }
+        
+    }
+    .content2{
+       text-align: center;
+       .content-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .content-item {
+           width: 30%;
+           
+         }
+        
+       }
+    }
+    .content3{
+        text-align: right;
+        
+    }
+   }
+}

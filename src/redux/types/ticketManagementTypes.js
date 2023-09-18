@@ -1,0 +1,11 @@
+export const GET_TICKET_DETAIL='GET_TICKET_DETAIL'
+
+export const SET_SEAT='SET_SEAT';
+
+export const SET_TICKET='SET_TICKET'
+
+export const SET_TICKET_FINISH='SET_TICKET_FINISH'
+
+export const CHANGE_TAB='CHANGE_TAB';
+
+export const REDIRECT_TAB='REDIRECT_TAB';

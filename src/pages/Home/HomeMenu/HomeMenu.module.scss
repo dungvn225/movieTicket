@@ -1,0 +1,35 @@
+img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+@media(max-width:768px){
+    
+        .name{
+            width: 100px;
+            white-space: pre-line;
+        }
+    
+   
+    
+}
+
+@media(max-width:576px){
+    
+    .name{
+        width: 50px;
+        white-space: pre-line;
+        font-size: 12px;
+    }
+    .logo-system,.logo-cinema{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    .movie{
+        font-size: 12px;
+    }
+
+
+
+}

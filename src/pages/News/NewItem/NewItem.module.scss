@@ -1,0 +1,20 @@
+.wrapper{
+     display: block;
+     text-decoration: none;
+     &:hover{
+        text-decoration: none;
+     }
+   .item{
+     display: flex;
+     margin: 10px 0px;
+     .info{
+        width: 100%;
+        .title{
+           font-weight: 600;
+        }
+        .description{
+
+        }
+     }
+   }
+}

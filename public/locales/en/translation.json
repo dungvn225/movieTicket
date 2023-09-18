@@ -1,0 +1,18 @@
+{
+    "hello":{
+        "1":"hello",
+        "2":"hi"
+},
+    "signin":"signin",
+    "signup": "signup",
+    "Logout": "Logout",
+    "book tickets":"book tickets",
+    "Home": "Home",
+    "Contact": "Contact",
+    "News": "News",
+    "The movie is playing":"The movie is playing",
+    "Upcoming movie":"Upcoming movie"
+}
+
+
+

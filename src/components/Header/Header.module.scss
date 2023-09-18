@@ -1,0 +1,132 @@
+.wrapper{
+    
+    position: relative;
+   
+   .wp-content{
+     width: 100%;
+     background: rgb(0 0 0 / 86%);
+    
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     right: 0px;;
+     z-index: 20;
+     opacity: 0.8;
+     
+    .content{
+      max-width: 1200px;
+      margin: auto;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+    
+      color: white;
+      .icon-bar{
+        display: none;
+      }
+      .menu{
+       
+        .menu-list{
+          margin: 0px;
+          padding: 0px;
+          display: flex;
+          align-items: center;
+          list-style: none;
+          .menu-item{
+
+
+            .menu-link{
+               text-decoration: none;
+               padding:13px 10px 13px 10px;
+               display: block;
+               color: white;
+               cursor: pointer;
+               &:hover{
+                 opacity: 0.8;
+               }
+               
+            }
+          }
+        }
+      }
+
+      .action{
+         width: 25%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         select{
+          border: none;
+          background: none;
+          outline: none;
+          option{
+            color: black;
+            margin-top: 20px;
+          }
+         }
+        
+      
+         .login,.register{
+          color: white;
+          text-decoration: none;
+           &:hover{
+            cursor: pointer;
+            opacity: 0.8;
+           }
+         }
+      }
+ }
+   }
+   
+  
+}
+
+
+@media(max-width:767.98px){
+    .wrapper{
+      .content{
+        .logo{
+          img{
+            display: none;
+          }
+          .icon-bar{
+            display: block;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+          }
+           
+         }
+         .action{
+          width: 50% !important;
+         
+         }
+      }
+       .menu{
+        position: absolute;
+        width: 100vw;
+        top: 50px;
+        width: 100%;
+        background: black;
+        display: none;
+        &.showMenu{
+          display: block;
+        }
+        .menu-list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        .menu-item{
+          width: 100vw;
+          background: black;
+        }
+       
+        }
+       }
+
+       
+    }
+}
+

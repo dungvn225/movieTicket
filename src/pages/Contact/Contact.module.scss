@@ -1,0 +1,34 @@
+.wrapper{
+     .content{
+        
+       
+        form{
+            border: none;
+            width: 400px;
+        margin:200px  auto;
+        
+        input{
+            border-radius: 4px;
+            outline: none;
+            padding-left:  4px;
+        }
+        textarea{
+            width: 100%;
+            height: 200px;
+            border-radius: 4px;
+            outline: none;
+            padding-left:  4px;
+        }
+        }
+        .error{
+            color: red;
+        }
+     }
+    .footer{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        
+    }
+}

@@ -1,0 +1,32 @@
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    .item{
+       width:30%;
+        
+         display: flex;
+         .img{
+            width: 30%;
+          margin-right: 10px;
+          
+            
+         }
+        .info{
+           flex: 1;
+           font-size: 16px;
+           .name{
+              font-weight: bold;
+              color: var(--red-color);
+              font-size: 24px;
+            }
+            .showDate{
+                  
+            }
+            .rapName{
+                
+            }
+        }
+    }
+}

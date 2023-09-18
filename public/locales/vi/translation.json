@@ -1,0 +1,16 @@
+{
+   
+    "hello":{
+        "1":"xin chào",
+        "2":"xin chào"
+},
+    "signin":"đăng nhập",
+    "signup": "đăng ký",
+    "Logout": "Đăng xuất",
+    "book tickets":"Đặt vé",
+    "Home": "Trang chủ",
+    "Contact": "Liên hệ",
+    "News": "Tin tức",
+    "The movie is playing":"Phim đang chiếu",
+    "Upcoming movie":"Phim sắp chiếu"
+}

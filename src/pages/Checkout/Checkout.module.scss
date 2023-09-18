@@ -1,0 +1,80 @@
+.wrapper{
+    margin: 0px auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+ 
+   .seats{
+    flex: 1;
+    border: 1px solid black;
+    
+    
+    .trapezoid {
+      
+    border-bottom: 70px solid gray;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    height: 0;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0px 40px 20px 20px #8080801f;
+      }
+      .seat{  
+          width: 40px;
+          height: 40px;
+         color: white;
+         background: rgb(155, 153, 153);
+         cursor: pointer;
+         margin: 15px;
+         text-align: center;
+     
+         
+      }
+      .note{
+        display: flex ;
+        align-items: center;
+        width: 50%;
+        justify-content: space-between;
+        
+        margin: 10px auto;
+       
+      }
+      .reserved-seat{
+        
+         background: red;
+         cursor: no-drop;
+        
+      }
+      .vip-seat{
+        
+        background: rgb(255, 123, 0);
+      }
+      .reserving-seat{
+      
+        background: var(--green-color) ;
+      }
+      
+      .yourSeated{
+      
+        background: #0000ffbd;
+       
+      }
+     
+
+   }
+   .info{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    h3{
+        color: var(--green-color);
+        text-align: center;
+    }
+    .name{
+      font-weight: 600;
+    }
+   }
+}
+
+

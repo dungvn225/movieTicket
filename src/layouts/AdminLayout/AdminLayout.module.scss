@@ -1,0 +1,17 @@
+.wrapper{
+    display: flex;
+    .logo{
+        margin: 10px;
+        
+    }
+    .menu{
+        width: 20%;
+        background: rgb(12, 2, 27);
+        color: white;
+        height: 100vh;
+       
+    }
+    .content{
+        width: 60%;
+    }
+}

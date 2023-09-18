@@ -1,0 +1,1 @@
+export const GET_CAROUSEL_API='GET_CAROUSEL_API'
